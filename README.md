@@ -3,6 +3,27 @@
 Publicly visible version of the privately used Bernard discord bot used for showcase purposes, see specific methods in-code for scraping data.
 ** **
 
+## Status Displays in-game Statistics
+Sending a get request to the first listed server on the API, fetches the current playercount, and average ping / fps, then displays it on the status message.
+Tweaked with a feature to have the presence change depending on the playercount, ie. Online: > 40, Idle: < 40, DnD: < 65
+
+-40
+
+![online](https://github.com/Deekaks/bernardPublic/assets/102224382/373f522b-532d-46f4-a941-dc2e5e32f29a)
+** **
+
+-65
+
+![idle](https://github.com/Deekaks/bernardPublic/assets/102224382/2cde787f-5033-4406-b5b4-3f960bdd9488)
+** **
+
++65
+
+![dnd](https://github.com/Deekaks/bernardPublic/assets/102224382/d92d3d9e-22f8-42fc-aed4-dcd41f6ee521)
+** **
+
+
+
 ## UserId Fetching via Keyword Search
 Using roblox's open API for the user search engine, bernard can with 95% accuracy return the correct players userid, dependent on correct spelling.
 
